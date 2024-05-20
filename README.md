@@ -36,6 +36,19 @@ Invoice App is a Spring Boot application that provides RESTful APIs for managing
 - **Parameters:** `id` (String) - ID of the invoice to delete.
 - **Response:** HTTP status code indicating success or failure.
 
+## Technologies Used
+- **Spring Boot**   
+- **Spring Data JPA**   
+- **Maven** 
+- **H2 DB**
+
+## How to Run
+- Make sure you have Java and Maven installed.  
+- Clone this repository.
+- Navigate to the project directory.    
+- Run mvn spring-boot:run.
+- The application will start at http://localhost:8080.
+
 ## Sample JSON Structure for Invoice
 
 ```json
